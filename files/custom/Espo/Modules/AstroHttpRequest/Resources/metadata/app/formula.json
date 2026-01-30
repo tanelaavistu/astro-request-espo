@@ -1,0 +1,16 @@
+{
+    "functionList": [
+        {
+            "name": "ext\\astroRequest\\send",
+            "insertText": "ext\\astroRequest\\send(URL, METHOD, DATA, HEADERS)"
+        },
+        {
+            "name": "ext\\astroRequest\\lastResponse",
+            "insertText": "ext\\astroRequest\\lastResponse(FIELD)"
+        }
+    ],
+    "functionClassNameMap": {
+        "ext\\astroRequest\\send": "Espo\\Modules\\AstroHttpRequest\\Core\\Formula\\Functions\\AstroHttpRequestGroup\\AstroSendType",
+        "ext\\astroRequest\\lastResponse": "Espo\\Modules\\AstroHttpRequest\\Core\\Formula\\Functions\\AstroHttpRequestGroup\\AstroLastResponseType"
+    }
+}
