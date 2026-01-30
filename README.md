@@ -14,7 +14,7 @@ This is ideal for integrating EspoCRM with third-party APIs for data validation,
 
 ## Installation
 
-1.  **Package the Extension**: Zip the all the extension files.
+1.  **Package the Extension**: Zip all the extension files or download the release package.
 2.  **Upload**: Navigate to **Administration** > **Extensions**.
 3.  **Install**: Upload and install the zipped file.
 
@@ -24,7 +24,7 @@ The functions are designed to be called sequentially: first `send`, then `lastRe
 
 ### Example: Sending Data (POST Request)
 
-This example shows sending the entity ID to a external API
+This example shows sending the entity ID to an external API
 
 ```php
 // Base data
@@ -56,4 +56,8 @@ if($success) {
 
 ### License
 
-EspoCRM is an open-source project licensed under [GNU AGPLv3](https://raw.githubusercontent.com/espocrm/espocrm/master/LICENSE.txt).
+This project is a derivative work based on [EspoCRM](https://github.com/espocrm/espocrm), which is licensed under [GNU AGPLv3](https://raw.githubusercontent.com/espocrm/espocrm/master/LICENSE.txt).
+
+This derivative work is also licensed under GNU AGPLv3.
+
+Copyright (C) 2026 Tanel Aavistu
